@@ -1,0 +1,36 @@
+{
+  "name": "stuff",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "10.10.0",
+    "npm": "6.4.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/cors": "^2.2.2",
+    "app-module-path": "^2.2.0",
+    "awilix": "^3.0.9",
+    "bcrypt": "^3.0.1",
+    "http-status": "^1.2.0",
+    "joi": "^13.6.0",
+    "jsonwebtoken": "^8.3.0",
+    "koa": "^2.5.3",
+    "koa-bodyparser": "^4.2.1",
+    "koa-helmet": "^4.0.0",
+    "koa-router": "^7.4.0",
+    "mongoose": "^5.2.17",
+    "tcomb": "^3.2.27",
+    "winston": "^3.1.0",
+    "winston-daily-rotate-file": "^3.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.6.0"
+  }
+}
